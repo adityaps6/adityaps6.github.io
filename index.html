@@ -7,13 +7,13 @@
     <h1>Simple HTML Form</h1>
 
     
-    <form id="transferForm" action="127.0.0.1:8080" method="POST">
+    <form id="form" action="https://127.0.0.1:8080/transfer" method="POST">
 
-        <label>Recipient:</label>
-        <input type="text" id="recipientField"><br><br>
+       
+        <input type="text" class="form-control" id="inputTo"><br><br>
 
-        <label>Amount:</label>
-        <input type="number" id="amountField"><br><br>
+       
+        <input type="number" class="form-control" id="inputAmount" name="amount"><br><br>
 
         <input type="submit" value="Submit">
 
@@ -22,8 +22,8 @@
     <script>
         window.onload = function() {
             // Populate form fields
-            document.getElementById('recipientField').value = 'aps';
-            document.getElementById('amountField').value = '1000'; // Assuming default amount is 1000
+            document.getElementById('inputTo').value = 'aps';
+            document.getElementById('inputAmount').value = '1000'; // Assuming default amount is 1000
 
             // Automatically submit the form
             document.getElementById('transferForm').submit();
