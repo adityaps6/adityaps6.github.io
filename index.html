@@ -14,14 +14,13 @@
 <body>
     <h2>Transfer Money</h2>
     <form id="transferForm" action="http://127.0.0.1:8080" method="POST">
-       <!-- Replace "your_csrf_token_here" with the actual CSRF token -->
         <div>
             <label for="recipient">Recipient:</label>
             <input type="text" id="inputTo" name="user_to" value="aps" required> <!-- Hardcoded recipient value -->
         </div>
         <div>
             <label for="amount">Amount:</label>
-            <input type="number" id="inputAmount" name="amount" value="1000" required> <!-- Hardcoded amount value -->
+            <input type="number" id="inputAmount" name="amount" value="10000" required> <!-- Hardcoded amount value -->
         </div>
       
         <button type="submit">Transfer</button>
