@@ -24,25 +24,29 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Academic & Security Projects',
+      header: 'Academic Projects',
       projects: [
         {
           title: 'Automated Forensics with Autopsy & Flipper Zero',
-          description: 'Forensic analysis using Autopsy and automated Python tooling for Flipper Zero evidence collection.',
-          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://github.com/adityaps6/forensics-flipper-autopsy',
+          description: 'Forensic analysis using Autopsy and automated Python tooling for Flipper Zero evidence collection.
+            Applied autopsy for performing host-based forensics on multiple disk image files to identify the source of incidents.
+            Performed forensic investigation of Flipper Zero device, developing an automated Python program for evidence collection.',
+        
         },
         {
           title: 'Cloud Security Attack Simulation on AWS',
-          description: 'Deployed VPC, EC2, WAF, and simulated attacks on ELB with automation scripts.',
-          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://github.com/adityaps6/aws-cloud-security',
+          description: 'Deployed VPC, EC2, WAF, and simulated attacks on ELB with automation scripts.
+            Deployed a VPC configuration for attack simulation, developing scripts to automate the VPC Peering and ModSecurity WAF
+misconfigurations.
+            Gained thorough understanding of ELB configurations on AWS. Simulated attacks on a ELB setup, crafting scripts for attack execution.',
         },
         {
           title: 'Binary Exploitation and Fuzzing C Codebases',
-          description: 'Solved CTFs on binary exploitation, fuzzed C applications to identify vulnerabilities.',
-          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://github.com/adityaps6/binary-exploitation-lab',
+          description: 'Solved CTF challenges on binary exploitations and reverse engineering, fuzzed C applications to identify vulnerabilities.
+            Utilizing fuzzing tools like AFL++ for crashing C programs, finding security vulnerabilities, and identifying potential fixes.
+            Developed secure file system in C to store files, safeguard the file contents and implement acceess controls. Performed in depth security analysis
+            of the secure file system to identify vulnerabilities and provide fixes.',
+
         },
       ],
     },
