@@ -33,14 +33,11 @@ const CONFIG = {
         },
         {
           title: 'Cloud Security Attack Simulation on AWS',
-          description: 'Deployed VPC, EC2, WAF, and simulated attacks on ELB with automation scripts. Deployed a VPC configuration for attack simulation, developing scripts to automate the VPC Peering and ModSecurity WAF misconfigurations.
-            Gained thorough understanding of ELB configurations on AWS. Simulated attacks on a ELB setup, crafting scripts for attack execution.',
+          description: 'Deployed VPC, EC2, WAF, and simulated attacks on ELB with automation scripts. Deployed a VPC configuration for attack simulation, developing scripts to automate the VPC Peering and ModSecurity WAF misconfigurations. Gained thorough understanding of ELB configurations on AWS. Simulated attacks on a ELB setup, crafting scripts for attack execution.',
         },
         {
           title: 'Binary Exploitation and Fuzzing C Codebases',
-          description: 'Solved CTF challenges on binary exploitations and reverse engineering, fuzzed C applications to identify vulnerabilities. Utilizing fuzzing tools like AFL++ for crashing C programs, finding security vulnerabilities, and identifying potential fixes.
-            Developed secure file system in C to store files, safeguard the file contents and implement acceess controls. Performed in depth security analysis
-            of the secure file system to identify vulnerabilities and provide fixes.',
+          description: 'Solved CTF challenges on binary exploitations and reverse engineering, fuzzed C applications to identify vulnerabilities. Utilizing fuzzing tools like AFL++ for crashing C programs, finding security vulnerabilities, and identifying potential fixes. Developed secure file system in C to store files, safeguard the file contents and implement acceess controls. Performed in depth security analysis of the secure file system to identify vulnerabilities and provide fixes.',
 
         },
       ],
