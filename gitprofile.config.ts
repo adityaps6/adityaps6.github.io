@@ -28,8 +28,7 @@ const CONFIG = {
       projects: [
         {
           title: 'Automated Forensics with Autopsy & Flipper Zero',
-          description: 'Forensic analysis using Autopsy and automated Python tooling for Flipper Zero evidence collection. Applied autopsy for performing host-based forensics on multiple disk image files to identify the source of incidents. 
-            Performed forensic investigation of Flipper Zero device, developing an automated Python program for evidence collection.',
+          description: 'Forensic analysis using Autopsy and automated Python tooling for Flipper Zero evidence collection. Applied autopsy for performing host-based forensics on multiple disk image files to identify the source of incidents. Performed forensic investigation of Flipper Zero device, developing an automated Python program for evidence collection.',
         
         },
         {
