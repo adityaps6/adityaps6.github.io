@@ -46,8 +46,8 @@ const CONFIG = {
 
   seo: {
     title: 'Portfolio of Aditya Sudhansu',
-    description: 'Security Engineer with expertise in red teaming, forensics, binary exploitation, and cloud security.',
-    imageURL: '',
+    description: 'Security Engineer with expertise in red teaming, blue teaming, forensics, binary exploitation, and cloud security.',
+    imageURL: 'https://drive.google.com/file/d/1mBB4Cqutw37V7Ijq7AiO4wtAv9Vv9U8h/view?usp=drive_link',
   },
 
   social: {
@@ -74,7 +74,7 @@ const CONFIG = {
   },
 
   resume: {
-    fileUrl: 'https://yourdomain.com/Aditya_Sudhansu_Resume.pdf',
+    fileUrl: 'https://drive.google.com/file/d/1ss7OH6YenXBrRtqxFvv7qeHIduA5fgQ3/view',
   },
 
   skills: [
