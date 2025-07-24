@@ -40,6 +40,11 @@ const CONFIG = {
           description: 'Solved CTF challenges on binary exploitations and reverse engineering, fuzzed C applications to identify vulnerabilities. Utilizing fuzzing tools like AFL++ for crashing C programs, finding security vulnerabilities, and identifying potential fixes. Developed secure file system in C to store files, safeguard the file contents and implement acceess controls. Performed in depth security analysis of the secure file system to identify vulnerabilities and provide fixes.',
 
         },
+        {
+          title: 'Hack The Box Machines',
+          description: 'Participated in numerous Hack The Box challenges to sharpen offensive security skills and simulate real-world penetration testing scenarios. Solved Active Directory, web application, and Linux/Windows privilege escalation boxes. Practiced manual exploitation of vulnerabilities such as SQL Injection, Command Injection, LFI/RFI, Kerberoasting, SMB enumeration, and buffer overflows. Applied tools like Burp Suite, Nmap, Gobuster, Impacket, and Hydra.',
+
+        },
       ],
     },
   },
@@ -47,7 +52,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Aditya Sudhansu',
     description: 'Security Engineer with expertise in red teaming, blue teaming, forensics, binary exploitation, and cloud security.',
-    imageURL: 'https://drive.google.com/file/d/1mBB4Cqutw37V7Ijq7AiO4wtAv9Vv9U8h/view?usp=drive_link',
+    imageURL: 'https://drive.google.com/file/d/17t0kAc-8G8jBee78pJbFmDQvXLUgfJIf/view?usp=drive_link',
   },
 
   social: {
