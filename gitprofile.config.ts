@@ -52,7 +52,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Aditya Sudhansu',
     description: 'Security Engineer with expertise in red teaming, blue teaming, forensics, binary exploitation, and cloud security.',
-    imageURL: 'https://drive.google.com/file/d/17t0kAc-8G8jBee78pJbFmDQvXLUgfJIf/view?usp=drive_link',
+    imageURL: 'https://github.com/adityaps6/adityaps6.github.io/blob/main/me2.jpeg',
   },
 
   social: {
