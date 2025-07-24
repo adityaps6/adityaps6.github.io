@@ -80,6 +80,7 @@ const CONFIG = {
 
   resume: {
     fileUrl: 'https://drive.google.com/file/d/1ss7OH6YenXBrRtqxFvv7qeHIduA5fgQ3/view',
+    imageURL: 'https://github.com/adityaps6/adityaps6.github.io/blob/main/me2.jpeg',
   },
 
   skills: [
@@ -106,15 +107,22 @@ const CONFIG = {
     'Security Automation',
     'Vulnerability Management',
     'Bash',
+    'MITRE ATTACK Framework',
+    'AFL++',
   ],
 
   experiences: [
+    {
+      company: 'Amazon Web Services',
+      position: 'Cloud Support Associate',
+      from: 'October 2022',
+      to: 'December 2022',
+    },
     {
       company: 'Tata Consultancy Services',
       position: 'Security Operations Analyst',
       from: 'August 2020',
       to: 'October 2022',
-      companyLink: 'https://www.tcs.com',
     },
   ],
 
