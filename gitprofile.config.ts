@@ -82,7 +82,21 @@ const CONFIG = {
     fileUrl: 'https://drive.google.com/file/d/1ss7OH6YenXBrRtqxFvv7qeHIduA5fgQ3/view',
     imageURL: 'https://github.com/adityaps6/adityaps6.github.io/blob/main/me2.jpeg',
   },
-
+  educations: [
+    {
+      institution: 'Carnegie Mellon University',
+      degree: 'MS in Information Security',
+      from: '2023',
+      to: '2024',
+    },
+    {
+      institution: 'Uttar Pradesh Technical University',
+      degree: 'B.Tech in Computer Science and Engineering',
+      from: '2016',
+      to: '2020',
+    },
+  ],
+  
   skills: [
     'Python',
     'C/C++',
@@ -147,20 +161,7 @@ const CONFIG = {
     },
   ],
 
-  educations: [
-    {
-      institution: 'Carnegie Mellon University',
-      degree: 'MS in Information Security',
-      from: '2023',
-      to: '2024',
-    },
-    {
-      institution: 'Uttar Pradesh Technical University',
-      degree: 'B.Tech in Computer Science and Engineering',
-      from: '2016',
-      to: '2020',
-    },
-  ],
+  
 
   publications: [],
 
